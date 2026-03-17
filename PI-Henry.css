@@ -1,0 +1,43 @@
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
+margin:0;
+padding:20px;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+.controls{
+margin-bottom:20px;
+}
+
+button{
+padding: 10px 20px;
+font-size:15px;
+cursor: pointer;
+border-radius: 15px;
+color: #f4f4f4;
+background-color: #333;
+}
+
+#paletteContainer{
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+gap:10px;
+max-width:1000px;
+margin:auto;
+}
+
+.colorBox{
+height:150px;
+display:flex;
+align-items:end;
+justify-content:center;
+color:white;
+font-weight:bold;
+padding:10px;
+border-radius:6px;
+}

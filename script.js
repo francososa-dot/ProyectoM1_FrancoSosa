@@ -23,7 +23,7 @@ function randomHSL(){
     const s = Math.floor(Math.random() * 100)
     const l = Math.floor(Math.random() * 100)
 
-    return `hsl(${h}, ${s}%, ${l}%`
+    return `hsl(${h}, ${s}%, ${l}%)`
 }
 
 //elegir colordel texto segun el fondo

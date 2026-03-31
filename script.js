@@ -13,7 +13,7 @@ let color = "#"
 for(let i=0;i<6;i++){
 color += letters[Math.floor(Math.random()*16)]
 }
-//retornamos el color generado
+
 return color
 }
 
@@ -26,7 +26,7 @@ function randomHSL(){
     return `hsl(${h}, ${s}%, ${l}%)`
 }
 
-//elegir colordel texto segun el fondo
+//elegir color del texto segun el fondo
 function getTextColor(color){
     if(color.startsWith("#")){
         const r = parseInt(color.substring(1,3), 16)

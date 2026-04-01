@@ -75,6 +75,22 @@ background:#fff;
 cursor:pointer;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #333;
+}
+
+.github{
+    color: #f6ff5f;
+}
+
 @media(max-width: 768px){
     h1{
      font-size: 1.5rem;

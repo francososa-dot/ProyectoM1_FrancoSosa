@@ -75,5 +75,13 @@ for(let i=0;i<size;i++){
 
     }
 }
+
+function updateYear(){
+    const year = new Date().getFullYear();
+    document.getElementById("year").textContent = year;
+}
+
+updateYear();
+
 //agregamos un event listener al botón para generar la paleta cuando se haga click
 generateBtn.addEventListener("click", generatePalette)
